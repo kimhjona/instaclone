@@ -1,7 +1,3 @@
-### Screenshots
-
-<a href="http://imgur.com/9weTCIi"><img src="http://i.imgur.com/9weTCIi.png" title="source: imgur.com" /></a>
-<a href="http://imgur.com/g8OkIeJ"><img src="http://i.imgur.com/g8OkIeJ.png" title="source: imgur.com" /></a>
 
 ### Setup
 - [ ] Run `npm install` to install server-side dependencies
@@ -15,6 +11,11 @@
 
 ### Functionality
 - Authentication login and sign up, photo uploading, private photo viewing, public photo viewing, cookies
+
+### Screenshots
+
+<a href="http://imgur.com/9weTCIi"><img src="http://i.imgur.com/9weTCIi.png" title="source: imgur.com" /></a>
+<a href="http://imgur.com/g8OkIeJ"><img src="http://i.imgur.com/g8OkIeJ.png" title="source: imgur.com" /></a>
 
 
 
