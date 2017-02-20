@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>foto.js - Jon's solo project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><center>
+<div id=everything>
+  <h1>Sign me up!<h1>
+  <form method='POST' action='/signup'>
+    <input name="username" type="text" placeholder="username"></input>
+    <input name="password" type="password"></input>
+    <input type='submit' value='Create User'></button>
+    <% if (error) { %>
+      <div>  Error </div>
+      <div> <%= error %> </div>
+    <% } %>
+  </form>
+  <a href='/'><h1><p>Actually, I think I have an account</h1></a>
+</div>
+</center></body>
+</html>

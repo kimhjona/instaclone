@@ -1,0 +1,24 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>foto.js - Jon's solo project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  Welcome back to foto.js, <%= cookie %>!
+  <a href='/public'><h1><p>Show me everyone's pictures!</a></h1>
+    <ul>
+    </ul>
+    <form method='POST' action='/home'>
+    <input name="url" type="text" placeholder="picture url"></input>
+    <input type='submit' value='Upload!'></button>
+  </form>
+    <a href='./'>Home</a>
+    <% let count = 0; %>
+    <% for (let i = pictures.length - 1; i >= 0; i -= 1) { %>
+      <% if (pictures[i].created_by === cookie) { %>
+        <p><img id=pic src="<%= pictures[i].url %>"<p>
+      <% } %>
+    <% } %>
+</body>
+</html>

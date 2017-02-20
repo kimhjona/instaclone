@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>foto.js - Jon's solo project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <% const length = pictures.length > 10 ? pictures.length - 10 : 0; %>
+    <% for (let i = pictures.length - 1; i >= length; i -= 1) { %>
+    <p>
+    <div id=pic-border>
+    <b><%= pictures[i].created_by %></b><p>
+      <img id=pic src="<%= pictures[i].url %>"
+    </div>
+    <p>
+    <% } %>
+    <a href='/home'><h1><p>I want to upload more!</a></h1>
+</body>
+</html>

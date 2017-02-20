@@ -1,0 +1,36 @@
+
+body {
+  background-color: #9999ff;
+  text-align: center;
+  font-style: Arial;
+  display: flex;
+  flex-direction: column;
+}
+
+#everything {
+  width: 70%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+#pic {
+  display: flex;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #B9543E;
+  border-radius: 7px;
+}
+
+h1 {
+  font-style: Arial;
+}
+
+#pic-border {
+  background:#B9543E;
+  margin-left: auto;
+  margin-right: auto;
+
+}

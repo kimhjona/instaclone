@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>foto.js - Jon's solo project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><p>
+  <div id=everything>
+  <h1>Welcome to foto.js, the world's photo sharing and monetization platform</h1><p>
+    <form method="POST" action='/login'>
+      <input name="username" type="text" placeholder="username"></input>
+      <input name="password" type="password" placeholder="password"></input>
+      <input type='submit' value="login">
+    </form>
+  <h1><a href='./signup'>Sign me up!</a></h1>
+  <% if (loggedin) { %>
+    <div> <%= loggedin %> </div>
+  <% } %>
+  </div>
+</center></body>
+</html>
