@@ -10,7 +10,7 @@ const sessionController = require('./session/sessionController');
 const pictureController = require('./pictures/pictureController');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const mongoURI = 'mongodb://admin:admin@ds139198.mlab.com:39198/pictures';
 mongoose.connect(mongoURI);
@@ -77,5 +77,6 @@ app.get('/public', (req, res) => {
 });
 
 app.listen(port);
+console.log('listening at ' + port);
 
 module.exports = app;

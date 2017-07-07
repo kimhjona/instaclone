@@ -4,7 +4,10 @@
   "description": "foto.js",
   "main": "index.js",
   "scripts": {
-    "start": "export NODE_ENV=development; nodemon server/server.js"
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "6.9.1"
   },
   "author": "Jon Kim",
   "license": "MIT",
